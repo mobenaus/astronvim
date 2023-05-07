@@ -14,5 +14,8 @@ return {
   name = "catppuccin",
   config = function()
     require("catppuccin").setup {}
+    require("notify").setup({
+      background_colour = "#000000",
+    })
   end,
 }
